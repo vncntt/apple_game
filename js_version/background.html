@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Fruit Box Game</title>
+    <style>
+        .canvas-container {
+            display: flex;
+            flex-direction: column; /* Stack items vertically */
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+        #sumDisplay {
+            margin-top: 20px; /* Adjust this value as needed */
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="canvas-container">
+        <div id="sumDisplay"></div>
+        <canvas id="gameCanvas" width="800" height="600"></canvas>
+    </div>
+    <script src="game.js"></script>
+</body>
+</html>
